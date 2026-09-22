@@ -10,15 +10,13 @@ class Solution {
             int x=a[l]+a[r];
             if(x<=limit)
             {
-                c++;
+           
                 l++;
-                r--;
+              
             }
-            else
-            {
+           
                 c++;
                 r--;
-            }
         }
         return c;
         
