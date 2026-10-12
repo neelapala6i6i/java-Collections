@@ -1,6 +1,6 @@
 class Solution {
     public int maximumWealth(int[][] a) {
-    int max=0;
+    int max=a[0][0];
         for(int i=0;i<a.length;i++)
         {
             int sum=0;
